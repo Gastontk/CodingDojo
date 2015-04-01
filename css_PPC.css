@@ -1,0 +1,42 @@
+.container {
+	min-height: 1000px;
+	width:1000px;
+	background-color:black;
+	border: solid;
+	border-color: red;
+	border-width: 1px;
+	text-align: center;
+
+}
+.top{
+	height: 68px;
+	width:1000px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: lightgreen;
+}
+.top img {
+	/*margin-left: -10px;*/
+}
+.top h3 {
+	margin:0px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 240px;
+}
+.top ul {
+	margin-left: 0px;
+}
+.nav {
+background-color: grey;
+text-align: left;
+}
+.nav ul{
+	margin: 0 auto;
+	width: 900px;
+}
+.nav a{
+	color: darkgrey;
+}
