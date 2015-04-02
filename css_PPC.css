@@ -1,10 +1,11 @@
 .container {
-	height: 1000px;
+	height: 700px;
 	width:1000px;
-	background-color:black;
-	border: solid;
+	background: linear-gradient(to right, black, rgb(50,50,50), black);
+	/*background-color:black;*/
+/*	border: solid;
 	border-color: red;
-	border-width: 1px;
+	border-width: 1px;*/
 	text-align: center;
 
 }
@@ -47,9 +48,9 @@
 	/*min-height: 300px;*/
 	/*min-height: 800px;*/
 	/*background-color: lightblue;*/
-	border: solid;
+/*	border: solid;
 	border-width: 1px;
-	border-color: green;
+	border-color: green;*/
 	display: block;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -103,6 +104,8 @@
 	margin: 0 auto;
 	width: 900px;
 	text-align: left;
+	margin-top: 5px;
+	margin-left: 53px;
 }
 .break a {
 	margin-left: 0px;
@@ -116,25 +119,28 @@
 }
 
 div.bottom {
-	height: 600px;
-	width: 900px;
-	background-color: red;
-	border:solid;
-	border-color: green;
-	border-width: 2px;
+	height: auto;
+	width: 940px;
+	/*background-color: red;*/
+	/*border:solid;*/
+	/*border-color: green;*/
+	/*border-width: 2px;*/
 	display: inline-block;
 }
 
 
 .bottom .box1, .bottom .box2, .bottom .box3, .bottom .box4 {
-	width: 24%;
-	height: 300px;
-	border-width: 1px;
+	width: 200;
+	height: 208px;
+/*	border-width: 1px;
 	border-style: dashed;
-	border-color: green;
+	*/border-color: green;
 	display: inline-block;
-	background: grey;
+	background: white;
 	border:0;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-right: 17px;
 
 }
 .bottom h3 {
@@ -142,6 +148,43 @@ div.bottom {
 	font-size: .8em;
 	margin: 0;
 
+}
+.bottom img {
+	width: 200px;
+	height: 90px;
+	vertical-align: top;
+
+}
+.bottom p {
+	font-size: .70em;
+}
+
+
+.btn {
+  margin-left: 80px;
+  background: #FCC600;
+  background-image: -webkit-linear-gradient(top, #FCC600, #FCC600);
+  background-image: -moz-linear-gradient(top, #FCC600, #FCC600);
+  background-image: -ms-linear-gradient(top, #FCC600, #FCC600);
+  background-image: -o-linear-gradient(top, #FCC600, #FCC600);
+  background-image: linear-gradient(to bottom, #FCC600, #FCC600);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #24231e;
+  font-size: 10px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+.btn:hover {
+  text-decoration: none;
 }
 
 
